@@ -21,9 +21,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-dockerhub-username/booster-ci-cd-project .
+          docker build -t Menna114/booster-ci-cd-project .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push your-dockerhub-username/booster-ci-cd-project
+          docker push Menna114/booster-ci-cd-project
 
